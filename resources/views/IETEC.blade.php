@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+    <link href='css/app.css' rel="stylesheet" type="text/css" >
     <link rel="Icon" href="/img/ietec_logo.png">
     <title>IETEC - Cefet RJ</title>
 </head>
@@ -19,7 +19,7 @@
                 </div> <!--menu-->
             </div><!--header-->
         </header>
-            
+
             <div class="texto_sobre">
                 <h1>Seja bem vindo a<br><span id="ietec">IETEC</span></h1>
                 <p> Possui um ambiente físico que se destina a abrigar negócios e projetos 
@@ -29,7 +29,7 @@
                     Idealizada há mais de 20 anos, vem consolidando sua estratégia de expansão 
                     <br>aos campi de Nova Iguaçu, Maria da Graça, Petrópolis, Valença, Angra dos Reis,
                     <br> Itaguaí e Nova Friburgo.</p>
-                    <a href="/html/quem_somos.html"><button>Saiba mais</button></a>
+                    <a href='#'><button>Saiba mais</button></a>
             </div>
     
         <section class="sobre">
@@ -38,7 +38,5 @@
             </div>
         </section>
     
-        </body>
-    </html>
 </body>
 </html>
