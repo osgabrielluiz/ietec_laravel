@@ -1,7 +1,6 @@
 @extends('layouts.modelo')
 @section('menu')
 
-<h1>Alô mundo!</h1>
 
 
 @endsection

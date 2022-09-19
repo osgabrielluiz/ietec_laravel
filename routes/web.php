@@ -14,3 +14,6 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('/quem somos', function (){
+    return view('/layouts/quem somos');
+});
