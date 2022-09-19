@@ -17,3 +17,7 @@ Route::get('/dashboard', function () {
 Route::get('/quem somos', function (){
     return view('/layouts/quem somos');
 });
+
+Route::get('/relatorio', function () {
+    return view('/relatorio');
+});

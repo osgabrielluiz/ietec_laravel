@@ -61,5 +61,5 @@
     </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="./dash.js"></script>
+<script src="./js/dash.js"></script>
 </html>
