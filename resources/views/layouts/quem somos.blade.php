@@ -18,5 +18,11 @@
             Assim, a IETEC perssegue o interesse público que busca soluções inovadoras para os seus processos, produtos e serviços oferecendo um espaço de diálogo e de trocas de experiências.</p>
     </div>
 
+    <div>
+        <img src="" alt="">
+    </div>
+
+    
+
 </body>
 </html>

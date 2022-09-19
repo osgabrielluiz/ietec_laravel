@@ -1,68 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
-    <title>Dashboard</title>
+    <link href='css/dashboard.css' rel="stylesheet" type="text/css" >
+    
+    <title>Dashboard - IETEC</title>
 </head>
-<body id="dash">
-    <section id="section_informacao">
-        <ul id="info_resumida">
-            <li class="information">
-                <img src="/img/grafico_tecnologia.png" alt="gráfico Tecnologia" width="10%">
-                <h3>Tecnologia</h3>
-            </li>
-            <li class="information">
-                <img src="/img/grafico_capital.png" alt="gráfico capital" width="10%">
-                <h3>Capital</h3>
-            </li>
-            <li class="information">
-                <img src="/img/grafico_mercado.png" alt="gráfico Mercado" width="10%">
-                <h3>Mercado</h3>
-            </li>
-            <li class="information">
-                <img src="/img/gestao.png" alt="Gráfico Gestão" width="10%">
-                <h3>Gestão</h3>
-            </li>
-        </ul>
+<body>
 
-        <ul id="info_graphics">
-            <li class="information_graphics">
-                <figure>
-                    <img src="/img/grafico_tecnologia.png" alt="gráfico Tecnologia" width="100%">
-                    <figcaption>Gráfico de Tecnologia</figcaption>
-                </figure>
-            </li>
-            <li class="information_graphics">
-                <figure>
-                    <img src="/img/grafico_capital.png" alt="gráfico capital" width="100%">
-                    <figcaption>Gráfico de Capital</figcaption>
-                </figure>
-            </li>
-            <li class="information_graphics"><figure>
-                <img src="/img/grafico_mercado.png" alt="gráfico Mercado" width="100%">
-                <figcaption>Gráfico de Mercado</figcaption>
-            </figure></li>
-        </ul>
-    </section>
-
-    <section id="section_trofeu">
-        <h1 id="trofeu">Troféus</h1>
+    <header>
+        <a href="#">
+            <img id="LogoIetec" src="/images/logoietec.png">
+        </a>        
+        <nav id="Navegacao">
+            <ul id="NavegacaoUl">
+                <li class="NavegacaoLi" id="QuemSomos"><a href="#">Quem Somos?</a></li>
+                <li class="NavegacaoLi" id="Login"><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="graphic_pequeno">
+            <div class="GraphicSmall"> 
+                <canvas id="barSmallChart"></canvas>
+            </div>
+            <div class="GraphicSmall">
+                <canvas id="pizzaSmall"></canvas>
+            </div>
+            <div class="GraphicSmall">
+                <canvas id="teiaSmall"></canvas>
+            </div>
+            
+        </section>
         
-        <span id="sala_trofeu">
-            <figure>
-                <img src="/img/trofeu1.png" alt="trofeu-1" width="50%">
-            </figure> 
-            <figure>
-                <img src="/img/trofeu2.png" alt="trofeu-2" width="50%">
+        <section id="graphic_big"> 
+            <div class="GraphicBig" >
+                <canvas id="bar-chart"></canvas>
+            </div>
+            <div class="GraphicBig">
+                <canvas id="pie-chart"></canvas>
+            </div>
+            <div class="GraphicBig">
+                <canvas id="radar-chart"></canvas>
+            </div>
+        </section>
+        
+        <section id="trofeu">
+            <figure id="">
+                <img src="/images/trofeu.png" alt="">
+                <img src="/images/trofeu.png" alt="">
+                <img src="/images/trofeu.png" alt="">
+                <img src="/images/trofeu.png" alt="">
+                <img src="/images/trofeu.png" alt="">
+                <img src="/images/trofeu.png" alt="">
             </figure>
-            <figure>       
-                <img src="/img/trofeu3.png" alt="trofeu-3" width="50%">
-            </figure> 
-        </span>
-    </section>
-
+        </section>
+    </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./dash.js"></script>
 </html>
