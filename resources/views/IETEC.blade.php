@@ -17,7 +17,7 @@
             <div class="menu">
                 <a href="{{route('home')}}">Inicio</a>
                 <a href="{{route('login')}}">Login</a>
-                <a href="{{route('sobre')}}">Quem somos</a>
+                <a href="{{route('sobre')}}">Sobre</a>
             </div>
             <!--menu-->
         </div>
@@ -34,7 +34,7 @@
             <br>aos campi de Nova Iguaçu, Maria da Graça, Petrópolis, Valença, Angra dos Reis,
             <br> Itaguaí e Nova Friburgo.
         </p>
-        <a href='#'><button>Saiba mais</button></a>
+        <a href='sobre'><button>Saiba mais</button></a>
     </div>
 
     <section class="sobre">

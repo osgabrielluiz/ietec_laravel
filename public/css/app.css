@@ -175,7 +175,31 @@ section.sobre{
     
 }
 
-/* Quem somos */
+/* Sobre */
+.box_somos{
+    margin-top: -5%;
+}
+
+.box_somos h2{
+    font-size: 35px;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #003f5c
+}
+
+.box_somos p{
+    -webkit-column-count:2; /* Chrome, Safari, Opera */
+    -moz-column-count:2;    /* Firefox */
+    column-count:2;         /* padrão */
+    width: 70%;
+    margin: 0 auto;
+}
+
+#colorPhoto{
+    color: black;
+    width: 100%;
+    height: 50%;
+}
 
 
 /* Footer */
