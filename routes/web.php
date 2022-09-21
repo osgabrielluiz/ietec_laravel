@@ -23,7 +23,7 @@ Route::get('/relatorio', function () {
 });
 
 Route::get('/login', function () {
-    return view('/relatorio');
+    return view('/login');
 })->name('login');
 
 Route::get('/modelo', function (){
