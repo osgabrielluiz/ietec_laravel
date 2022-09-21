@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form>
+    <form action="dashboard">
         <fieldset>
             <legend> <img src="/img/perfil.png" alt=""> </legend>
             <div class="login_area">
