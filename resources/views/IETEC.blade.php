@@ -34,7 +34,7 @@
             <br>aos campi de Nova Iguaçu, Maria da Graça, Petrópolis, Valença, Angra dos Reis,
             <br> Itaguaí e Nova Friburgo.
         </p>
-        <a href='#'><button>Saiba mais</button></a>
+        <a href='/sobre'><button>Saiba mais</button></a>
     </div>
 
     <section class="sobre">
