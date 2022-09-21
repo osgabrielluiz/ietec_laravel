@@ -15,9 +15,9 @@
     <header>
         <div class="central_header">
             <div class="menu">
-                <a href="index.html">Inicio</a>
+                <a href="{{route('home')}}">Inicio</a>
                 <a href="{{route('login')}}">Login</a>
-                <a href="/quem_somos">Quem somos</a>
+                <a href="{{route('sobre')}}">Quem somos</a>
             </div>
             <!--menu-->
         </div>
