@@ -10,7 +10,7 @@
 <body>
     <form>
         <fieldset>
-            <legend> <img src="/public/img/icone-usuario.png" alt=""> </legend>
+            <legend> <img src="/img/perfil.png" alt=""> </legend>
             <div class="login_area">
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
             </div>
