@@ -25,3 +25,7 @@ Route::get('/relatorio', function () {
 Route::get('/login', function () {
     return view('/relatorio');
 })->name('login');
+
+Route::get('/modelo', function (){
+    return view('/layouts/modelo');
+})->name('modelo');

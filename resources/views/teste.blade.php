@@ -1,8 +1,6 @@
 @extends('layouts.modelo')
 @section('menu')
 
-
-
 @endsection
 
 @section('footer')
