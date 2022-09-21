@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='css/dashboard.css' rel="stylesheet" type="text/css" >
-    
     <title>Dashboard - IETEC</title>
 </head>
 <body>
@@ -59,6 +58,9 @@
             </figure>
         </section>
     </main>
+    
+    
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="./js/dash.js"></script>
