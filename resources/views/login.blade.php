@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/public/css/login.css">
+    <link rel="stylesheet" href="/css/login.css">
     <title>Login</title>
 </head>
 
 <body>
     <form>
         <fieldset>
-            <legend> <img src="/public/img/icone-usuario.png" alt=""> </legend>
+            <legend> <img src="" alt=""> </legend>
             <div class="login_area">
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
             </div>

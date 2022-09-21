@@ -41,11 +41,11 @@ fieldset legend {
 
 /* e-mail e senha */
 #email {
-    background-image: url(icone-usuario.png);
+    background-image: url(/img/icone-usuario.png);
 }
 
 #passw {
-    background-image: url(icone-cadeado.png);
+    background-image: url(/img/icone-cadeado.png);
     border: none;
 }
 
